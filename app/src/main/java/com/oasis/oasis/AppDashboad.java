@@ -35,7 +35,7 @@ public class AppDashboad extends AppCompatActivity {
                 }
 
                 if (position==2) {
-                    color = 0xFF000000;
+                    color = 0xFF00FFF;
                 }
 
                 if (position==3) {
