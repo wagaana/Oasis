@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224211262551",
+    "firebase_url": "https://oasis-46ec5.firebaseio.com",
+    "project_id": "oasis-46ec5",
+    "storage_bucket": "oasis-46ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224211262551:android:3e7166cafe56b689",
+        "android_client_info": {
+          "package_name": "com.oasis.oasis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224211262551-5shi7pl3ktpnnna1mu7n9necff15cevv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oasis.oasis",
+            "certificate_hash": "3f0fc4150599c9ae9f6d5b78cca00a072c031fa6"
+          }
+        },
+        {
+          "client_id": "224211262551-np004mb4k33scs3puqfmqnmf1gfpaqvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwMVC7Flwa9OxAZjCn9gt-3XQCGISjmOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224211262551-np004mb4k33scs3puqfmqnmf1gfpaqvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
