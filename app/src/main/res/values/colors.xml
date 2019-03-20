@@ -6,4 +6,11 @@
     <color name="colorgreen">#3CCC08</color>
     <color name="colorblue">#1168C5</color>
     <color name="colorred">#E92315</color>
+
+    <color name="dimgray">#696969</color>
+    <color name="black">#2F2F2F</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="graycolor">#D3D3D3</color>
 </resources>
