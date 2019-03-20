@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class AppDashboad extends AppCompatActivity {
     GridView grid;
     String text[] = {"Approved","Pending","Missed","Denied"};
-    int image[] = {R.mipmap.profile,R.mipmap.profile,R.mipmap.profile,R.mipmap.profile};
+    int image[] = {R.mipmap.approved,R.mipmap.pending,R.mipmap.missed,R.mipmap.denied};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
