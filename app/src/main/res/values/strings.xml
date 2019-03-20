@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">Oasis</string>
     <string name="action_settings">Settings</string>
-
-    <string name="phonetext">Enter a phone number that can be used to verify your identity with a text message or phone call. </string>
-
 </resources>
