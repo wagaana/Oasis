@@ -16,10 +16,8 @@ public class EntryPortal extends AppCompatActivity {
 
         if (!databaseHelper.checkUser()){
             callLoginactivity();
-            finish();
         }else{
             callactivity();
-            finish();
         }
     }
 
@@ -50,11 +48,13 @@ public class EntryPortal extends AppCompatActivity {
     public void callactivity(){
         Intent intent=new Intent(this, AppDashboad.class);
         startActivity(intent);
+        finish();
     }
 
     public void callLoginactivity(){
         Intent intent=new Intent(this, WelcomeActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }
