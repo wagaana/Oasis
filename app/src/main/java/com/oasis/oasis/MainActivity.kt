@@ -22,11 +22,11 @@ class MainActivity : AppCompatActivity() {
             view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show()
         }
 
-        val intent = Intent(this, AppDashboad::class.java).apply {
+        val intent = Intent(this, EntryPortal::class.java).apply {
             putExtra(EXTRA_MESSAGE, "lool")
         }
         startActivity(intent)
-
+        finish()
 
     }
 

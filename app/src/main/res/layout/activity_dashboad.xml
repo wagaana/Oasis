@@ -9,6 +9,15 @@
     android:layout_margin="12dp"
     tools:context=".AppDashboad">
 
+    <RelativeLayout
+        android:id="@+id/makeReservation"
+        android:background="@mipmap/palace_reser"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="100dp">
+    </RelativeLayout>
+
     <GridView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/simpleGrid"
         android:layout_width="match_parent"
@@ -19,10 +28,5 @@
         android:horizontalSpacing="10dp"
         android:stretchMode="columnWidth"
         android:gravity="center" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </LinearLayout>
 
 </LinearLayout>
